@@ -1,0 +1,102 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+/* Container for the form */
+.container {
+    background-color: #fff;
+    width: 360px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Tab container */
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eaeaea;
+}
+
+.tab {
+    font-size: 16px;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #999;
+}
+
+.tab.active {
+    font-weight: bold;
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input field styling */
+input {
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+input:focus {
+    border-color: #000;
+}
+
+/* Password field icon styling */
+input[type="password"] {
+    position: relative;
+}
+
+input[type="password"]::placeholder {
+    font-style: italic;
+}
+
+/* Button styling */
+button {
+    background-color: #FFD700;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #FFC300;
+}
+
+/* Additional text below the form */
+.or-sign-in {
+    font-size: 14px;
+    color: #777;
+    margin-top: 15px;
+}
